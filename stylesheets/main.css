@@ -5,7 +5,8 @@
   width: 70%;
   height: 70%;
   float: right;
-  background-color: red;
+  background-color: #999;
+  opacity: 0.5;
 }
 
 .bg {

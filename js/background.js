@@ -2,7 +2,7 @@ window.Background = new function() {
   var RUNNING_URL = 'http://go4pro.net/wp-content/uploads/2015/02/GoPro-Raj-Kumar-Tamang-The-Great-Himalaya-Trail-1.23.15-Bike-maxresdefault.jpg'
   var DRIVING_URL = 'http://i.ytimg.com/vi/gWdhCFzc228/maxresdefault.jpg'
   var MAX_BLUR_RADIUS = 5.0;
-  var MIN_BLUR_OPACITY = 0.7;
+  var MIN_BLUR_OPACITY = 1;
   var TIMER_STEP = 20;
   var TRANSITION_TIME = 500;
   var radiusStep;
