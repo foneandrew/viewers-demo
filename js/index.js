@@ -4,6 +4,7 @@ $(document).ready( function() {
 
 $(function() {
   Background.init();
+  Viewer.init();
 
   UiListeners.hook();
 });
@@ -11,12 +12,15 @@ $(function() {
 window.UiListeners =  new function() {
   this.hook = function() {
     bindViewer();
+    bindButtons();
   };
 
+  // PRIVATE
+
   var bindViewer = function() {
-    $('#viewer').click(function(){
-      Background.swap();
-    })
+    $('#d3-content').click(function(){
+      Viewer.goUp();
+    });
 
     $('#viewer').hover(
       function(){
@@ -27,5 +31,17 @@ window.UiListeners =  new function() {
         Background.giveFocus();
       }
     );
+  };
+
+  var bindButtons = function() {
+    $('#left-button').click(function(){
+      Viewer.goLeft();
+    });
+    $('#right-button').click(function(){
+      Viewer.goRight();
+    });
+    $('#back-button').click(function(){
+      Viewer.goBack();
+    });
   };
 };

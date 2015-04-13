@@ -9,6 +9,65 @@
   opacity: 0.5;
 }
 
+#d3-content {
+  width: 90%;
+  height: 90%;
+  position: inherit;
+  background-color: red;
+  left: 5%;
+}
+
+#left-button {
+  position: inherit;
+  left: 0px;
+  height: 80%;
+  min-width: 5%;
+  top: 10%;
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#left-button:hover {
+  background-color: #BBB;
+}
+
+#right-button {
+  position: inherit;
+  right: 0px;
+  height: 80%;
+  min-width: 5%;
+  top: 10%;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#right-button:hover {
+  background-color: #BBB;
+}
+
+#back-button {
+  position: inherit;
+  left: 10%;
+  height: 10%;
+  width: 80%;
+  bottom: 0;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#back-button:hover {
+  background-color: #BBB;
+}
+
+.nav-icon {
+  position: inherit;
+  margin: auto;
+  top: 50%;
+  margin-top: -10px;
+  left: 50%;
+  margin-left: -10px;
+}
+
 .bg {
   position: absolute;
   top: 0;
