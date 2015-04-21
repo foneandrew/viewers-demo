@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+}
+
+#left-button {
+  position: inherit;
+  left: 0px;
+  height: 80%;
+  min-width: 5%;
+  top: 10%;
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#left-button:hover {
+  background-color: #BBB;
+}
+
+#right-button {
+  position: inherit;
+  right: 0px;
+  height: 80%;
+  min-width: 5%;
+  top: 10%;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#right-button:hover {
+  background-color: #BBB;
+}
+
+#back-button {
+  position: inherit;
+  left: 10%;
+  height: 10%;
+  width: 80%;
+  bottom: 0;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#back-button:hover {
+  background-color: #BBB;
+}
+
+.nav-icon {
+  position: inherit;
+  margin: auto;
+  top: 50%;
+  margin-top: -10px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: #FFF;
+  background-size: cover !important;
+}
+
+.bg img {
+  max-width: 100%;
+}
+
+.col {
+  width: 50%;
+  height: 100%;
+  vertical-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.col.left {
+  float: left;
+}
+
+.col.right {
+  float: right;
+}
+
+.vert-center {
+  display: inline-block;
+}

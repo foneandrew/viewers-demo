@@ -1,0 +1,181 @@
+#viewer {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 70%;
+  height: 70%;
+  min-height: 500px;
+  float: right;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.transparent {
+  opacity: 0.5;
+}
+
+#viewer-content {
+  width: 90%;
+  height: 90%;
+  position: inherit;
+  left: 5%;
+  text-align: center;
+}
+
+#viewer-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  vertical-align: center;
+}
+
+.menu img {
+  display: block;
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu h2 {
+  font-size: 4em;
+  color: #333333;
+}
+
+.driving {
+  height: 100%;
+}
+
+.driving h3 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0.3em;
+}
+
+.driving h4 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.driving img {
+  max-height: 100%;
+  vertical-align: center;
+}
+
+.driving th {
+  font-size: 1.5em;
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: #4C4C4C;
+}
+
+.driving td {
+  font-size: 2em;
+  text-align: left;
+  font-weight: bolder;
+  color: #006699;
+}
+
+.blued {
+  color: #006699;
+}
+
+.blued.impact {
+  color: #0099CC;
+  font-size: 1.5em;
+}
+
+.running {
+  height: inherit;
+}
+
+.running h1 {
+  font-size: 2em;
+}
+
+.running h2 {
+  font-size: 1.5em;
+}
+
+.running h3 {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+#current-measure {
+  font-size: 2em;
+}
+
+#target-measure {
+  font-size: 2em;
+}
+
+#pie-chart {
+  height: 100%;
+  width: 100%;
+}
+
+#pie-chart.arc.path {
+  stroke: #fff;
+}
+
+.pie-over {
+  fill: #00FF00;
+  color: #00A800;
+}
+
+.pie-under {
+  fill: #0080FF;
+  color: #0043FF;
+}
+
+.pie-target {
+  fill: #FFCC66;
+  color: #FE7E1A;
+}
+
+#bar-chart{
+  height: 80%;
+  width: 100%;
+}
+
+.bar {
+  fill: #0080FF;
+}
+
+.bar.running {
+  fill: #330066;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.greyed {
+  color: #4C4C4C;
+}
+
+#walking-amount {
+  color: #0043FF;
+}
+
+#running-amount {
+  color: #6600FF;
+}
